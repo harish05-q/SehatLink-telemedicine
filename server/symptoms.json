@@ -1,0 +1,24 @@
+{
+  "initial_question": "What is your primary symptom?",
+  "options": [
+    {
+      "id": "fever",
+      "text": "Fever / Cold / Cough",
+      "next_question": "How high is the fever?",
+      "sub_options": [
+        { "text": "Mild (below 100°F)" },
+        { "text": "High (above 102°F)" }
+      ]
+    },
+    {
+      "id": "stomach",
+      "text": "Stomach Pain / Digestion Issues",
+      "next_question": "Where is the pain located?",
+      "sub_options": [
+        { "text": "Upper abdomen" },
+        { "text": "Lower abdomen" },
+        { "text": "All over" }
+      ]
+    }
+  ]
+}
